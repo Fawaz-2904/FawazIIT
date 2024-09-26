@@ -1,0 +1,126 @@
+/* General body settings */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Table settings */
+.table-custom {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.table-custom th,
+.table-custom td {
+    text-align: left;
+    padding: 12px 15px;
+    vertical-align: middle;
+    font-size: 14px;
+    border: none;
+}
+
+.table-custom th {
+    background-color: #f1f3f5;
+    color: #212529;
+    font-weight: 600;
+    border-bottom: 2px solid #e9ecef;
+    cursor: pointer;
+}
+
+.table-custom tbody tr {
+    border-bottom: 1px solid #e9ecef;
+}
+
+.table-custom tbody tr:last-child {
+    border-bottom: none;
+}
+
+.table-custom tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Highlight the selected row */
+.table-active {
+    background-color: #e7f3ff !important;
+}
+
+/* Edit button styling */
+button.btn-sm {
+    font-size: 12px;
+    padding: 4px 8px;
+}
+
+/* Toolbar styling */
+.toolbar {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
+.toolbar button {
+    display: inline-block;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.toolbar .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.toolbar .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.toolbar .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.toolbar .btn-info {
+    background-color: #71e4f6;
+    border-color: #71e4f6;
+}
+
+.toolbar .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+/* Table header click effect for sorting */
+th:hover {
+    background-color: #dee2e6;
+    transition: background-color 0.2s ease;
+}
+
+/* Table shadow effect */
+.table-bordered {
+    border: 1px solid #dee2e6;
+    border-collapse: separate;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+/* Table border round edges */
+.table-bordered th:first-child,
+.table-bordered td:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.table-bordered th:last-child,
+.table-bordered td:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/* Scrollbar for table */
+.table-custom {
+    overflow-x: auto;
+}
+
